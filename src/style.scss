@@ -1,0 +1,43 @@
+//Importamos la fuente Poppins de Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+//TIPOGRAFIA
+$text-font-family: "Poppins", sans-serif;
+
+//Variables tipografia tamaño
+$text-h1-size: 26px;
+$text-h2-size: 22px;
+$text-h3-size: 20px;
+$text-regular-size: 16px;
+
+//Variables tipografia pesos
+$text-black-h1: 900;
+$text-bold-h2:700;
+
+
+// Variables colores 
+$color-primary: #6DB966;
+$color-secondary: #203E1E;
+$color-text: #181818;
+$color-grey: #F5F5F5;
+
+body{
+    margin: 0px;
+    font-family: $text-font-family;
+}
+
+p {
+    font-size: $text-regular-size;
+    color: $color-text;
+  }
+
+  h1 {
+    font-size: $text-h1-size;
+    font-weight: $text-black-h1;
+  }
+
+  h2 {
+    font-size: $text-h2-size;
+    font-weight: $text-bold-h2;
+    color: $color-secondary;
+  }
