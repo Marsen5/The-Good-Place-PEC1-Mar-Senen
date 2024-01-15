@@ -101,6 +101,9 @@ const details = [
       height: auto;
       margin-right: 2em;
     }
+    img:hover {
+      clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    }
 
     .texto {
       width: 80vh; 
